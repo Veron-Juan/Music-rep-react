@@ -1,11 +1,11 @@
-import '../styles/PlayerTemplate.css'
+import '../templatesPlay/PlayerTemplateTheWeeknd.css'
 
 
 
 
 
 const playButton = ()=>{
-    const discImage = document.querySelector('.asd');
+    const discImage = document.querySelector('.disc-theweeknd');
     const buttonPlay = document.querySelector('.play')
     const buttonPause = document.querySelector('.button-pause')
     discImage.classList.toggle('rotate');
@@ -16,7 +16,7 @@ const playButton = ()=>{
 
 const pauseButton = ()=>{
     
-    const discImage = document.querySelector('.asd');
+    const discImage = document.querySelector('.disc-theweeknd');
     const buttonPlay = document.querySelector('.play')
     const buttonPause = document.querySelector('.button-pause');
     discImage.classList.toggle('pause-animation');
@@ -30,15 +30,15 @@ const pauseButton = ()=>{
 
 
 
-export default function PlayerTemplate(){
+export default function PlayerTemplateTheWeeknd(){
     return(
         <div className='player-container-template'>
-            <img src='https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/02/14/15816909157779.jpg'/>
+            <img src='https://static.standard.co.uk/s3fs-public/thumbnails/image/2020/03/20/10/the-weeknd-2003.jpg?width=968&auto=webp&quality=50&crop=968%3A645%2Csmart'/>
             <div className="player-container">
             <div className="disc-container">
-                <div className="asd">
-                    <figure className="disc-figure">
-                    <figure className="disc-figure--int" />
+                <div className="disc-theweeknd">
+                    <figure className="disc-stay-figure">
+                    <figure className="disc-stay-figure--int" />
                     </figure>
                 </div>
             </div>

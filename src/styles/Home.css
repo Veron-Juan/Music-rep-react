@@ -8,8 +8,9 @@
     align-items: center;
     height: 100%;
     transition: .85s;
-    background-color: rgba(50, 27, 65, 0.838);
+    background-color: rgba(57, 43, 66, 0.872);
     /* background-image: linear-gradient(150deg, #3e3b4d 0, #3b385d 25%, #1c1c31 50%, #000004 75%, #000000 100%); */
+    
     
     
     
@@ -18,6 +19,7 @@
     transition: .13s;
     background-color: rgba(58, 58, 64, 0.974);
     /* background-image: linear-gradient(150deg, #9c93cb 0, #3f3987 25%, #07071d 50%, #000004 75%, #523f3f 100%); */
+    
     
     
 }

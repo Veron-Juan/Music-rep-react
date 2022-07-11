@@ -1,6 +1,6 @@
 
 /* body{
-    background-image: url('https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/02/14/15816909157779.jpg');
+    background-image: url('https://images.genius.com/e221014b535a0643a9dd0b4f76756ddf.1000x333x1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,25 +15,28 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100%;
     
-    
-    
-    
-    
-
-    
+    /* background-image: url('https://images.genius.com/e221014b535a0643a9dd0b4f76756ddf.1000x333x1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(6px); */
 
 }
 
+.player-container-template img{
+  filter: blur(6px);
+  height: 100%;
+  width: 100%;
+}
+
 .player-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
     height: 100vh;
     height: 600px;
     width: 600px;
-    /* border: 3px solid black; */
+    position: absolute;
     
     
     
@@ -50,13 +53,14 @@
     margin-bottom: 18px;
     
     
+    
   }
   
   
-  .disc-figure{
+  .disc-stay-figure{
     width: 70px;
     height: 70px;
-    background-color: #BE363F;
+    background-color: hsl(0, 2%, 10%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -67,20 +71,23 @@
     
     
     
+    
   }
   
-  .disc-figure--int{
+  .disc-stay-figure--int{
     width: 25px;
     height: 25px;
-    background-color: #F92C20;
+    /* background-color: #F92C20; */
+    background-color: #f3f0ebf5;
     border-radius: 50%;
     opacity: .6;
     box-shadow: 3px 3px 3px   black;
     
+    
   }
   
-  .asd{
-    background-image: url('https://i.pinimg.com/564x/25/86/c0/2586c0d60768e1952326ee585f193332.jpg');
+  .disc-theweeknd{
+    background-image: url('https://rytmy.pl/wp-content/uploads/2021/07/The-Weeknd-300x300.jpg');
     
     width: 350px;
     height: 350px;

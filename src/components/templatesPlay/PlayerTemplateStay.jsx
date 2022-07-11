@@ -1,11 +1,11 @@
-import '../styles/PlayerTemplate.css'
+import '../templatesPlay/PlayerTemplateStay.css'
 
 
 
 
 
 const playButton = ()=>{
-    const discImage = document.querySelector('.asd');
+    const discImage = document.querySelector('.disc-stay');
     const buttonPlay = document.querySelector('.play')
     const buttonPause = document.querySelector('.button-pause')
     discImage.classList.toggle('rotate');
@@ -16,7 +16,7 @@ const playButton = ()=>{
 
 const pauseButton = ()=>{
     
-    const discImage = document.querySelector('.asd');
+    const discImage = document.querySelector('.disc-stay');
     const buttonPlay = document.querySelector('.play')
     const buttonPause = document.querySelector('.button-pause');
     discImage.classList.toggle('pause-animation');
@@ -30,15 +30,15 @@ const pauseButton = ()=>{
 
 
 
-export default function PlayerTemplate(){
+export default function PlayerTemplateStay(){
     return(
         <div className='player-container-template'>
-            <img src='https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/02/14/15816909157779.jpg'/>
+            <img src='https://i.ytimg.com/vi/Q2MEz-6oDAU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCgmKQIdv8o6RSRoEOJ3yKGRjCUTg'/>
             <div className="player-container">
             <div className="disc-container">
-                <div className="asd">
-                    <figure className="disc-figure">
-                    <figure className="disc-figure--int" />
+                <div className="disc-stay">
+                    <figure className="disc-stay-figure">
+                    <figure className="disc-stay-figure--int" />
                     </figure>
                 </div>
             </div>

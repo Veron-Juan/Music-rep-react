@@ -3,6 +3,8 @@ import './App.css'
 import { Link, Route, Routes,  } from 'react-router-dom'
 import Home from './components/Home'
 import PlayerTemplate from './components/PlayerTemplate'
+import PlayerTemplateStay from './components/templatesPlay/PlayerTemplateStay'
+import PlayerTemplateTheWeeknd from './components/templatesPlay/PlayerTemplateTheWeeknd'
 
 function App() {
   
@@ -26,6 +28,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/player-template' element={<PlayerTemplate />} />
+        <Route path='/player-template-stay' element={<PlayerTemplateStay />} />
+        <Route path='/player-template-theweeknd' element={<PlayerTemplateTheWeeknd />} />
 
       </Routes>
 

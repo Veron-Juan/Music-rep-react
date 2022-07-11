@@ -8,6 +8,7 @@ export default function Cards(props){
         
         const aver = ()=>{
 
+                
                 fondo.classList.toggle('back');
               }
 

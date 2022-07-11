@@ -4,12 +4,8 @@ import Cards from "./Cards"
 import { useState } from "react"
 
 
-
-
-
 export default function Home(){
 
-    
 
     return(
         <div className="home-container back">
@@ -27,9 +23,9 @@ export default function Home(){
                     image='https://cdns-images.dzcdn.net/images/cover/64ec37a4cf512c7810c40ba0d318ff1e/264x264.jpg'/>
                 </Link>
 
-                <Link to='/player-template'>
+                <Link to='/player-template-theweeknd'>
                 <Cards
-                    image='https://indiehoy.com/wp-content/uploads/2015/07/the-weeknd-Beauty-Behind-the-Madness.jpg'/>
+                    image='https://www.theweeknd.com/sites/g/files/aaj14676/f/styles/suzuki_breakpoints_image_tablet_sq/public/release/201911/2ac634c217fba52b18e776e98f1d2c82889c59ed.jpg?itok=wqd78_mO'/>
                 </Link>
 
                 <Link to='/player-template'>
@@ -42,7 +38,7 @@ export default function Home(){
                     image='https://plazamusica.com.ar/wp-content/uploads/2021/03/61f51drplnL._SL1200_.jpg'/>
                 </Link>
 
-                <Link to='/player-template'>
+                <Link to='/player-template-stay'>
                 <Cards
                     image='https://www.lahiguera.net/musicalia/artistas/the_kid_laroi/disco/11404/the_kid_laroi_fuck_love-portada.jpg'/>
                 </Link>
