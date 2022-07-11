@@ -1,9 +1,24 @@
 import "../styles/Cards.css"
 
 export default function Cards(props){
-    return(
+
+        const fondo = document.querySelector('.home-container');
+        const front = document.querySelector('.main-container--grid_item');
+
         
-            <div className='main-container--grid_item'>
+        const aver = ()=>{
+                fondo.classList.toggle('back')
+                fondo.style.transition='4s'
+                
+              }
+
+        return(
+
+
+            <div 
+            onMouseEnter={aver}
+            onMouseLeave={aver}
+            className='main-container--grid_item'>
                     <img src={props.image} ></img>
                     <h3></h3>
                     <p></p>

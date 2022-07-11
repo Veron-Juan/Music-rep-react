@@ -12,6 +12,7 @@
     
     
     
+    
 }
 
 .main-container--grid_item img{
@@ -33,4 +34,8 @@
     height: 240px; */
     transition: .4s;
     box-shadow: 5px 10px 10px black;
+}
+
+.cambiofondo{
+    background-color: red;
 }

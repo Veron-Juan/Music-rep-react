@@ -1,12 +1,22 @@
 import "../styles/Home.css"
 import { Link } from 'react-router-dom'
 import Cards from "./Cards"
+import { useState } from "react"
+
+
+
+
 
 export default function Home(){
+
+    
+
     return(
-        <div className="home-container">
+        <div className="home-container back">
         
-            <div className="main-container--grid">
+            <div 
+            
+             className="main-container--grid">
                 <Link to='/player-template'>
                 <Cards
                     image='https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/6/b/a/4/1047251616149217.jpg'/>

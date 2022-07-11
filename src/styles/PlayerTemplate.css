@@ -1,11 +1,230 @@
-.player-container{
-    background-color: bisque;
-    height: 100vh;
+
+body{
+    background-image: url('https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/02/14/15816909157779.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(6px);
+}
+
+
+.player-container-template{
+    
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
+    
+    
+    
+    
+
+    
+
 }
-.player-container img{
-    width: 250px;
-    height: 250px;
+
+.player-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    height: 600px;
+    width: 600px;
+    /* border: 3px solid black; */
+    
+    
+    
+    
+    
+
+}
+
+
+
+.disc-container{
+    
+    
+    margin-bottom: 18px;
+    
+    
+  }
+  
+  
+  .disc-figure{
+    width: 70px;
+    height: 70px;
+    background-color: #BE363F;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* opacity: .7; */
+    border: 1px dotted black;
+    
+    
+    
+  }
+  
+  .disc-figure--int{
+    width: 25px;
+    height: 25px;
+    background-color: #F92C20;
+    border-radius: 50%;
+    opacity: .6;
+    box-shadow: 3px 3px 3px   black;
+    
+  }
+  
+  .asd{
+    background-image: url('https://i.pinimg.com/564x/25/86/c0/2586c0d60768e1952326ee585f193332.jpg');
+    
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 4px 3px 5px  black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px solid rgb(67, 21, 185); */
+    
+
+  }
+
+  .rotate{
+    animation: rotation 17s infinite linear;
+    
+  }
+
+  .play-animation{
+    animation-play-state: running;
+  }
+  .pause-animation{
+    animation-play-state: paused;
+  }
+  
+
+  .pausa{
+    animation-play-state: paused;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+ 
+
+
+
+  
+
+  .active{
+    display: block;
+
+  }
+
+
+  
+
+/*REPRODUCTOR*/
+
+
+
+
+.container-reproductor{
+  display: flex;
+  
+  
+  
+}
+
+.material-symbols-outlined{
+  font-size: 85px;
+  color: #BABABA;
+  cursor: pointer;
+  
+}
+.material-symbols-outlined:hover{
+  color: white;
+}
+
+.box-play-pause{
+  display: flex;
+  margin-right: 80px;
+}
+.box-play-pause .btt{
+  position: absolute;
+}
+.box-play-pause .inactive{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-input--range{
+    margin-top: 10px;
+    width: 310px;
+    display: flex;
+    justify-content: center;
+}
+.container-input--range input{
+    width: 240px;
+    
+}
+
+
+
+/* #rangeValue{
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: .6em;
+  color: white;
+} */
+.container-input--range input{
+  width: 450px;
+  height: 8px;
+  -webkit-appearance: none;
+  background: #b3b3b3;
+  outline: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0,0,0,1);
+  
+}
+.container-input--range input::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 8px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: -407px 0 0 400px #433f3f;
+  opacity: .8;
+}
+
+.container-input--range input::-webkit-slider-thumb:hover{
+  -webkit-appearance: none;
+  width: 15px;
+  
+  
 }
