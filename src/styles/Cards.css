@@ -9,10 +9,12 @@
     margin: 24px;
     
     
-    
-    
-    
-    
+}
+
+a:-webkit-any-link{
+    width: 230px;
+    height: 230px;
+    margin: 33px;
 }
 
 .main-container--grid_item img{
@@ -36,6 +38,3 @@
     box-shadow: 5px 10px 10px black;
 }
 
-.cambiofondo{
-    background-color: red;
-}
