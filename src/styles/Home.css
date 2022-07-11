@@ -1,0 +1,13 @@
+.home-container{
+    background-color: rgba(51, 48, 53, 0.866);
+    border: 2px solid green;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-container img{
+    width: 240px;
+    height: 240px;
+}

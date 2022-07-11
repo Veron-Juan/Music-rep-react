@@ -1,13 +1,24 @@
-import { useState } from 'react'
-import logo from './logo.svg'
+
 import './App.css'
+import Home from './components/Home'
+import PlayerTemplate from './components/PlayerTemplate'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <div className="App">
-      <h1>helou</h1>
+      <header className='header'>
+        <h3>logo</h3>
+        <nav>
+          <ul>
+            <li>home</li>
+            <li>set</li>
+            <li>contact</li>
+          </ul>
+        </nav>
+      </header>
+      <Home />
+      <PlayerTemplate />
     </div>
   )
 }
