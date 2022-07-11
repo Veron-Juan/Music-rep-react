@@ -1,5 +1,6 @@
 
 import './App.css'
+import { Link, Route, Routes,  } from 'react-router-dom'
 import Home from './components/Home'
 import PlayerTemplate from './components/PlayerTemplate'
 
@@ -17,10 +18,38 @@ function App() {
           </ul>
         </nav>
       </header>
-      <Home />
-      <PlayerTemplate />
+
+      
+
+
+
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/player-template' element={<PlayerTemplate />} />
+
+      </Routes>
+
+      {/* <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/search-page' element={<SearchPage />} />
+      </Routes> */}
     </div>
   )
 }
 
 export default App
+
+
+{/* <li><Link to='/'>Home</Link></li>
+            <li><Link to='/search-page'>Search</Link></li>
+            
+          </ul>
+        </nav>
+      </header>
+      
+
+
+      <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/search-page' element={<SearchPage />} />
+      </Routes> */}
