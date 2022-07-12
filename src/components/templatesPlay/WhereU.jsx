@@ -33,7 +33,7 @@ const pauseButton = ()=>{
 export default function WhereU(){
     return(
         <div className='player-container-template'>
-            <img src='https://i.pinimg.com/originals/2d/13/97/2d13976b4208639a2190b23beab044b4.png'/>
+            <img src='https://s.abcnews.com/images/GMA/150629_gma_connelly2_4x3_992.jpg'/>
             <div className="player-container">
             <div className="disc-container">
                 <div className="disc-whereu">
