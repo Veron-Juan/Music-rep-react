@@ -7,17 +7,12 @@ export default function Cards(props){
 
         
         const aver = ()=>{
-
-                
                 fondo.classList.toggle('back');
               }
 
         return(
-
-
             <div
-
-            onMouseEnter={aver}
+            onMouseEnter={aver} 
                 onMouseLeave={aver}
             className='main-container--grid_item'>
                     <img src={props.image} ></img>
