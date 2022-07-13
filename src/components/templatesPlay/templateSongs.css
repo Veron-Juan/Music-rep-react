@@ -22,6 +22,7 @@
   height: 100%;
   width: 100%;
   filter: blur(6px);
+  
 }
 
 h3{
@@ -36,10 +37,12 @@ h3{
 .player-container{
     display: flex;
     align-items: center;
+    flex-direction: column;
     height: 500px;
     width: 500px;
     
     margin-bottom: 82px;
+    
     
     
 }
@@ -52,6 +55,7 @@ h3{
   
   
   
+  
 }
 
 .disco-image{
@@ -59,6 +63,7 @@ h3{
   width: 350px;
   height: 350px;
   box-shadow: 4px 3px 5px  black;
+  
   
   
 }
