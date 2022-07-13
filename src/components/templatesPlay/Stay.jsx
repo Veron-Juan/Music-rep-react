@@ -1,23 +1,20 @@
-import '../templatesPlay/Drake.css'
+import '../templatesPlay/Stay.css'
 import TemplateSongs from './TemplateSongs'
 
 
 
-
-
-
-export default function Drake(){
+export default function Stay(){
     return(
         <TemplateSongs
-        title='Drake - Hold on going home'
-        image='https://mixlr-assets.s3.amazonaws.com/artwork/27d9349fb49ac9aa976b83d3b3ccffa3/base@2x.jpeg'
-        disco='https://i.discogs.com/RRSdWSxJJMXCS-w6S5Ym-U9UgLZQNyZmjrFsTdhAH6w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1Nzcz/MzktMTU2MjUyMzAx/MC03NzkyLmpwZWc.jpeg'
+        title='The kid laroi ft Justin bieber - Stay'
+        image='https://i.ytimg.com/vi/Q2MEz-6oDAU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCgmKQIdv8o6RSRoEOJ3yKGRjCUTg'
+        disco='https://i.pinimg.com/564x/ce/0b/1e/ce0b1e0e28c811af1cb9199458b482a8.jpg'
         />
     )
 }
 
 // const playButton = ()=>{
-//     const discImage = document.querySelector('.disc-drake');
+//     const discImage = document.querySelector('.disc-stay');
 //     const buttonPlay = document.querySelector('.play')
 //     const buttonPause = document.querySelector('.button-pause')
 //     discImage.classList.toggle('rotate');
@@ -28,7 +25,7 @@ export default function Drake(){
 
 // const pauseButton = ()=>{
     
-//     const discImage = document.querySelector('.disc-drake');
+//     const discImage = document.querySelector('.disc-stay');
 //     const buttonPlay = document.querySelector('.play')
 //     const buttonPause = document.querySelector('.button-pause');
 //     discImage.classList.toggle('pause-animation');
@@ -42,13 +39,13 @@ export default function Drake(){
 
 
 
-// export default function Drake(){
+// export default function PlayerTemplateStay(){
 //     return(
 //         <div className='player-container-template'>
-//             <img src='https://mixlr-assets.s3.amazonaws.com/artwork/27d9349fb49ac9aa976b83d3b3ccffa3/base@2x.jpeg'/>
+//             <img src='https://i.ytimg.com/vi/Q2MEz-6oDAU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCgmKQIdv8o6RSRoEOJ3yKGRjCUTg'/>
 //             <div className="player-container">
 //             <div className="disc-container">
-//                 <div className="disc-drake">
+//                 <div className="disc-stay">
 //                     <figure className="disc-stay-figure">
 //                     <figure className="disc-stay-figure--int" />
 //                     </figure>

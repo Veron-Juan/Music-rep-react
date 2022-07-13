@@ -1,14 +1,7 @@
 
-/* body{
-    background-image: url('https://images.genius.com/e221014b535a0643a9dd0b4f76756ddf.1000x333x1.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: blur(6px);
-} */
 
 
-.player-container-template{
+.template-container{
     
     display: flex;
     flex-direction: column;
@@ -16,48 +9,61 @@
     align-items: center;
     height: 100vh;
     width: 100%;
-    
     /* background-image: url('https://images.genius.com/e221014b535a0643a9dd0b4f76756ddf.1000x333x1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(6px); */
+    
+    
 
 }
-
-.player-container-template img{
-  filter: blur(6px);
+.template-container-image{
   height: 100%;
   width: 100%;
+  filter: blur(6px);
+}
+
+h3{
+  color: #030303;
+  font-weight: bold;
+  font-size: 45px ;
+  
+  
+  
 }
 
 .player-container{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 500px;
     
-    height: 100vh;
-    height: 600px;
-    width: 600px;
-    position: absolute;
-    
-    
-    
+    margin-bottom: 82px;
     
     
-
 }
 
-
-
-.disc-container{
-    
-    
-    margin-bottom: 18px;
-    
-    
-    
-  }
+.disco-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   
   
-  .disc-stay-figure{
+  
+}
+
+.disco-image{
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  box-shadow: 4px 3px 5px  black;
+  
+  
+}
+
+.disc-center-figure{
     width: 70px;
     height: 70px;
     background-color: hsl(0, 2%, 10%);
@@ -68,13 +74,13 @@
     flex-direction: column;
     /* opacity: .7; */
     border: 1px dotted black;
+    position: absolute;
     
-    
-    
+ 
     
   }
   
-  .disc-stay-figure--int{
+  .disc-center-figure--int{
     width: 25px;
     height: 25px;
     /* background-color: #F92C20; */
@@ -86,8 +92,8 @@
     
   }
   
-  .disc-theweeknd{
-    background-image: url('https://rytmy.pl/wp-content/uploads/2021/07/The-Weeknd-300x300.jpg');
+  .disc-starboy{
+    /* background-image: url('https://i.pinimg.com/564x/6f/e7/e4/6fe7e434dc3d63cbe3af94048883c8fa.jpg'); */
     
     width: 350px;
     height: 350px;
@@ -96,13 +102,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    /* border: 2px solid rgb(67, 21, 185); */
+    background-size: cover; */
+    border: 2px solid rgb(67, 21, 185);
     
 
   }
+
+
+
 
   .rotate{
     animation: rotation 17s infinite linear;

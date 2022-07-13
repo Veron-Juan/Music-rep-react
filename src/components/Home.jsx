@@ -15,7 +15,7 @@ export default function Home(){
              className="main-container--grid">
                 <Link to='/player-template'>
                 <Cards
-                    image='https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/6/b/a/4/1047251616149217.jpg'/>
+                    image='https://images.genius.com/9aa1a20d721f01f7869e1985706d4354.999x999x1.jpg'/>
                 </Link>
 
                 <Link to='/drake'>
@@ -33,7 +33,7 @@ export default function Home(){
                     image='https://images.genius.com/8468771360e61224a58e79d25a35c966.1000x1000x1.png'/>
                 </Link>
 
-                <Link to='/player-template'>
+                <Link to='/charlie-puth'>
                 <Cards
                     image='https://plazamusica.com.ar/wp-content/uploads/2021/03/61f51drplnL._SL1200_.jpg'/>
                 </Link>
@@ -43,7 +43,7 @@ export default function Home(){
                     image='https://www.lahiguera.net/musicalia/artistas/the_kid_laroi/disco/11404/the_kid_laroi_fuck_love-portada.jpg'/>
                 </Link>
 
-                <Link to='/player-template'>
+                <Link to='/oasis'>
                 <Cards
                     image='https://lastfm.freetls.fastly.net/i/u/500x500/8d6acedbe66b4e69ced210643799dc4c.jpg'/>
                 </Link>

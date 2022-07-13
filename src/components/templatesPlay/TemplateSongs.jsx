@@ -1,11 +1,8 @@
-import '../templatesPlay/PlayerTemplateStay.css'
-
-
-
+import './templateSongs.css'
 
 
 const playButton = ()=>{
-    const discImage = document.querySelector('.disc-stay');
+    const discImage = document.querySelector('.disco-image');
     const buttonPlay = document.querySelector('.play')
     const buttonPause = document.querySelector('.button-pause')
     discImage.classList.toggle('rotate');
@@ -16,7 +13,7 @@ const playButton = ()=>{
 
 const pauseButton = ()=>{
     
-    const discImage = document.querySelector('.disc-stay');
+    const discImage = document.querySelector('.disco-image');
     const buttonPlay = document.querySelector('.play')
     const buttonPause = document.querySelector('.button-pause');
     discImage.classList.toggle('pause-animation');
@@ -30,18 +27,21 @@ const pauseButton = ()=>{
 
 
 
-export default function PlayerTemplateStay(){
+export default function TemplateSongs(props){
     return(
-        <div className='player-container-template'>
-            <img src='https://i.ytimg.com/vi/Q2MEz-6oDAU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCgmKQIdv8o6RSRoEOJ3yKGRjCUTg'/>
+        <div className='template-container'>
+            
+            <img className='template-container-image' src={props.image} />
             <div className="player-container">
-            <div className="disc-container">
-                <div className="disc-stay">
-                    <figure className="disc-stay-figure">
-                    <figure className="disc-stay-figure--int" />
-                    </figure>
+            <h3 className='title'>{props.title}</h3>
+                <div className="disco-container">
+                    
+                        <img className='disco-image' src={props.disco} />
+                        <figure className="disc-center-figure">
+                        <figure className="disc-center-figure--int"  />
+                        </figure>
+                    
                 </div>
-            </div>
 
             {/* Player */}
             <div className="container-reproductor">

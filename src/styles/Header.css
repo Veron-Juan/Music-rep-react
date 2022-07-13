@@ -1,4 +1,4 @@
-.header{
+.header {
     height: 60px;
     display: flex;
     align-items: center;
@@ -6,22 +6,79 @@
     padding: 0 8px;
     background-image: linear-gradient(150deg, #474656 0, #1f1f24 50%, #000000 100%);
     box-shadow: 2px 3px 3px black;
-    
-  }
-  
-  .header h3{
+
+}
+
+.header h3 {
     color: white;
-  }
-  
-  .header nav ul{
+}
+
+.header nav ul {
     display: flex;
-    
-  
-  }
-  .header  ul li {
+
+
+}
+
+.header ul li {
     color: white;
     margin: 0 10px;
     list-style: none;
+}
+.header{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+  background-image: linear-gradient(150deg, #474656 0, #1f1f24 50%, #000000 100%);
+  box-shadow: 2px 3px 3px black;
   
-  }
+}
+
+.header h3{
+  color: white;
+}
+
+.header nav ul{
+  display: flex;
   
+
+}
+.header  ul li {
+  color: white;
+  margin: 0 10px;
+  list-style: none;
+
+}
+.header .material-symbols-outlined{
+    font-size: 50px;
+    font-weight: bold;
+}
+.header .material-symbols-outlined:hover{
+    color: #727278;
+}
+.menu-mobile{
+    height: 100vh;
+    width: 500px;
+    background-color: rgb(35, 33, 33);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.menu-mobile ul{
+    display: flex;
+    flex-direction: column;
+}
+.menu-mobile ul li{
+    margin: 40px;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.menu-mobile ul li:hover{
+    color: #58586a;
+}
+
