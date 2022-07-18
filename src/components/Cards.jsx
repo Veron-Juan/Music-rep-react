@@ -40,9 +40,11 @@ export default function Cards(props){
                 {play && <span  class="material-symbols-outlined">
                         play_circle
                 </span>}
-                
-                    <h3></h3>
-                    <p></p>
+                <div className="text-container">
+                        <p className="artista">Justin Bieber</p>
+                        <p className="cancion">Forever</p>
+                </div>
+                    
             </div>
         
         
