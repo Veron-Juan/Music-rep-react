@@ -2,10 +2,23 @@ import "../styles/Home.css"
 import { Link } from 'react-router-dom'
 import Cards from "./Cards"
 import { useState } from "react"
+import data from "../data"
+
 
 
 export default function Home(){
 
+
+    const cards = data.map(item => {
+        return (
+            <Cards
+            image = {item.coverImage}
+            artist={item.artist}
+            song={item.song}
+            link={item.link}
+            />
+        )
+    })
 
     return(
         <div className="home-container back">
@@ -13,9 +26,11 @@ export default function Home(){
             <div 
             
              className="main-container--grid">
-                <Link to='/player-template'>
+                {cards}
+
+                {/* <Link to='/player-template'>
                 <Cards
-                    image='https://images.genius.com/9aa1a20d721f01f7869e1985706d4354.999x999x1.jpg'/>
+                    image= {imagess} />
                 </Link>
 
                 <Link to='/drake'>
@@ -52,7 +67,7 @@ export default function Home(){
                 <Cards
                     image='https://http2.mlstatic.com/D_NQ_NP_714215-MLA27168199998_042018-O.jpg'/>
                 </Link>
-                
+                 */}
                 
                 
                 

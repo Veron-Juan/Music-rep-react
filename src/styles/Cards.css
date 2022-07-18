@@ -6,19 +6,17 @@
     border-radius: 20px;
     box-shadow: 0px 10px 10px black;
     cursor: pointer;
-    
-    
-    
-    
-    
-    
+    margin: 36px;
+    /* border: 2px solid green;   */
     
 }
 
 a:-webkit-any-link{
     width: 200px;
     height: 200px;
-    margin: 33px;
+    text-decoration: none;
+    list-style: none;
+    /* border: 2px solid red;  */
 }
 
 .main-container--grid_item img{
@@ -60,6 +58,7 @@ a:-webkit-any-link{
     margin: 116px -86px;
     /* display: none; */
     
+    
 }
 
 .text-container{
@@ -69,12 +68,17 @@ a:-webkit-any-link{
     
     height: 90px;
     margin-top: 8px;
+    
+    
 
 }
 
 .text-container p{
     color: white;
     margin: 0;
+    text-decoration: none;
+    list-style: none;
+    
     
     
 }
@@ -82,11 +86,18 @@ a:-webkit-any-link{
     
     display: inline;
     font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+
  
 }
 .cancion{
     display: inline;
+    text-decoration: none;
+    list-style: none;
 }
+
 
 
 /* .main-container--grid_item:hover:after{

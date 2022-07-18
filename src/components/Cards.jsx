@@ -1,5 +1,8 @@
 import "../styles/Cards.css"
 import { useState } from "react";
+import data from "../data"
+import { Link } from 'react-router-dom'
+
 
 
 export default function Cards(props){
@@ -37,13 +40,17 @@ export default function Cards(props){
                 
             className='main-container--grid_item' >
                 <img  src={props.image} ></img>
+                <Link to={`/${props.link}`} >
                 {play && <span  class="material-symbols-outlined">
                         play_circle
                 </span>}
+                </Link>
                 <div className="text-container">
-                        <p className="artista">Justin Bieber</p>
-                        <p className="cancion">Forever</p>
+                        <p className="artista">{props.artist}</p>
+                        <p className="cancion">{props.song}</p>
                 </div>
+                
+
                     
             </div>
         

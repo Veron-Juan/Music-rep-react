@@ -19,10 +19,6 @@ function App() {
     <div className="App">
       <Header /> 
       
-      {/* <Prueba
-      image='https://billboard.com.ar/wp-content/uploads/2022/01/maxresdefault.jpg'
-      disco='https://images.sk-static.com/images/media/profile_images/artists/5318433/huge_avatar'
-      /> */}
     
       <Routes>
         <Route path='/' element={<Home />} />
@@ -39,10 +35,6 @@ function App() {
       </Routes>
 
       
-      {/* <TemplatePlay
-      back-image='https://billboard.com.ar/wp-content/uploads/2022/01/maxresdefault.jpg'
-      disc-image='https://espanol.news24viral.com/wp-content/uploads/2020/07/intro-1595267435.jpg'
-      /> */}
 
     </div>
   )
