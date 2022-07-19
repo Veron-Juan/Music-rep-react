@@ -46,29 +46,29 @@ export default function TemplateSongs(props){
             {/* Player */}
             <div className="container-reproductor">
              
-            <span  class="material-symbols-outlined ">
+            <span  className="material-symbols-outlined ">
 volume_up
 </span>
-            <span class="material-symbols-outlined">
+            <span className="material-symbols-outlined">
 skip_previous 
 </span>
 
     <div className="box-play-pause">
 
-<span onClick={playButton} class="material-symbols-outlined btt play">
+<span onClick={playButton} className="material-symbols-outlined btt play">
 play_circle
 </span>
-<span onClick={pauseButton} class="material-symbols-outlined btt button-pause inactive">
+<span onClick={pauseButton} className="material-symbols-outlined btt button-pause inactive">
 pause
 </span>
 
     </div>
 
-            <span class="material-symbols-outlined ">
+            <span className="material-symbols-outlined ">
 skip_next
 </span>
             
-<span class="material-symbols-outlined">
+<span className="material-symbols-outlined">
 repeat
 </span>
          

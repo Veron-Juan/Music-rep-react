@@ -1,6 +1,6 @@
 import "../styles/Cards.css"
+
 import { useState } from "react";
-import data from "../data"
 import { Link } from 'react-router-dom'
 
 
@@ -8,40 +8,24 @@ import { Link } from 'react-router-dom'
 export default function Cards(props){
         const [play, setPlay] = useState(false);
 
-
         const hoverPlay = () => {
-                setPlay(!play);
-                
-            }
-
-
-
-
-        const fondo = document.querySelector('.home-container');
-        const front = document.querySelector('.main-container--grid_item');
-        const button = document.querySelector('.inactive');
-
-        
-        
+                setPlay(!play);                
+        }
         const aver = ()=>{
-                fondo.classList.toggle('back');
-                
-        }
-        const verplay = ()=>{
-                button.classList.toggle('inactive');
-        }
-
+                const fondo = document.querySelector('.home-container');
+                fondo.classList.toggle('back');  
+                }
 
         return(
             <div
-            
+        
             onMouseEnter={(event)=> {hoverPlay(event), aver(event)} }
                 onMouseLeave={(event)=> {hoverPlay(event), aver(event)}} 
                 
             className='main-container--grid_item' >
                 <img  src={props.image} ></img>
                 <Link to={`/${props.link}`} >
-                {play && <span  class="material-symbols-outlined">
+                {play && <span  className="material-symbols-outlined">
                         play_circle
                 </span>}
                 </Link>

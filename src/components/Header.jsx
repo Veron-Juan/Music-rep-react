@@ -21,7 +21,7 @@ export default function Header(){
             <li>Contact</li>
           </ul>
         </nav>
-        <span onClick={handleTogle} class="material-symbols-outlined">
+        <span onClick={handleTogle} className="material-symbols-outlined">
 menu
 </span>
         {toggle && <nav className='menu-mobile'>
