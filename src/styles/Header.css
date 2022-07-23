@@ -1,5 +1,6 @@
 .header {
     height: 60px;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,16 +25,6 @@
     margin: 0 10px;
     list-style: none;
 }
-.header{
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 8px;
-  background-image: linear-gradient(150deg, #474656 0, #1f1f24 50%, #000000 100%);
-  box-shadow: 2px 3px 3px black;
-  
-}
 
 .header h3{
   color: white;
@@ -53,13 +44,24 @@
 .header .material-symbols-outlined{
     font-size: 50px;
     font-weight: bold;
+    display: none;
+}
+@media (max-width: 896px){
+    .header .material-symbols-outlined{
+        display: block;
+    }
+    .header nav{
+        display: none;
+    }
+    
 }
 .header .material-symbols-outlined:hover{
     color: #727278;
 }
 .menu-mobile{
+    
     height: 100vh;
-    width: 500px;
+    width: 100%;
     background-color: rgb(35, 33, 33);
     position: absolute;
     top: 60px;
@@ -81,4 +83,5 @@
 .menu-mobile ul li:hover{
     color: #58586a;
 }
+
 

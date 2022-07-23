@@ -23,15 +23,15 @@ export default function Cards(props){
                 onMouseLeave={(event)=> {hoverPlay(event), aver(event)}} 
                 
             className='main-container--grid_item' >
-                <img  src={props.image} ></img>
-                <Link to={`/${props.link}`} >
+                <img  src={props.item.coverImage} ></img>
+                <Link to={`/${props.item.link}`} >
                 {play && <span  className="material-symbols-outlined">
                         play_circle
                 </span>}
                 </Link>
                 <div className="text-container">
-                        <p className="artista">{props.artist}</p>
-                        <p className="cancion">{props.song}</p>
+                        <p className="artista">{props.item.artist}</p>
+                        <p className="cancion">{props.item.song}</p>
                 </div>
                 
 

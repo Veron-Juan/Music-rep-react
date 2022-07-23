@@ -12,10 +12,15 @@ export default function Home(){
         return (
             <Cards
             key={item.id}
-            image = {item.coverImage}
-            artist={item.artist}
-            song={item.song}
-            link={item.link}
+            item={item}
+            // image = {item.coverImage}
+            // artist={item.artist}
+            // song={item.song}
+            // link={item.link}
+
+            //se puede usar {..item} (sp operator) y borrar los item de los props, para una mejor sintaxis, en este caso no estamos transformando los datos asi que no es del todo necesario
+
+
             />
         )
     })

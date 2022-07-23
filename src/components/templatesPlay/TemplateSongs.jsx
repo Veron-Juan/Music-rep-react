@@ -5,7 +5,7 @@ const playButton = ()=>{
     const discImage = document.querySelector('.disco-image');
     const buttonPlay = document.querySelector('.play')
     const buttonPause = document.querySelector('.button-pause')
-    discImage.classList.toggle('rotate');
+    discImage.classList.toggle('pause-animation');
     buttonPause.classList.toggle('inactive');
     buttonPlay.classList.toggle('inactive')
     
@@ -20,9 +20,7 @@ const pauseButton = ()=>{
     buttonPlay.classList.toggle('inactive');
     buttonPause.classList.toggle('inactive');
     discImage.classList.toggle('play-animation');
-
 }
-
 
 
 
@@ -36,7 +34,7 @@ export default function TemplateSongs(props){
             <h3 className='title'>{props.title}</h3>
                 <div className="disco-container">
                     
-                        <img className='disco-image' src={props.disco} />
+                        <img className='disco-image pause-animation' src={props.disco} />
                         <figure className="disc-center-figure">
                         <figure className="disc-center-figure--int"  />
                         </figure>

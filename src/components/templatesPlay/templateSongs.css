@@ -2,13 +2,14 @@
 
 
 .template-container{
-    
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100%;
+    
+    
     /* background-image: url('https://images.genius.com/e221014b535a0643a9dd0b4f76756ddf.1000x333x1.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -16,12 +17,14 @@
     backdrop-filter: blur(6px); */
     
     
+    
 
 }
 .template-container-image{
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   filter: blur(6px);
+  
   
 }
 
@@ -37,11 +40,13 @@ h3{
 .player-container{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     flex-direction: column;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     
-    margin-bottom: 82px;
+    
+    
     
     
     
@@ -115,13 +120,12 @@ h3{
 
   }
 
+.disco-image{
+  animation: rotation 17s infinite linear;
+}
 
 
 
-  .rotate{
-    animation: rotation 17s infinite linear;
-    
-  }
 
   .play-animation{
     animation-play-state: running;
@@ -130,10 +134,6 @@ h3{
     animation-play-state: paused;
   }
   
-
-  .pausa{
-    animation-play-state: paused;
-  }
 
   @keyframes rotation {
     from {
@@ -168,12 +168,15 @@ h3{
   
   
   
+  
+  
 }
 
 .material-symbols-outlined{
   font-size: 85px;
   color: #BABABA;
   cursor: pointer;
+  
   
 }
 .material-symbols-outlined:hover{
@@ -208,6 +211,8 @@ h3{
     width: 310px;
     display: flex;
     justify-content: center;
+    
+    
 }
 .container-input--range input{
     width: 240px;

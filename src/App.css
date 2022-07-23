@@ -1,26 +1,12 @@
-.header{
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 8px;
-  background-image: linear-gradient(150deg, #474656 0, #1f1f24 50%, #000000 100%);
-  box-shadow: 2px 3px 3px black;
-  
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.header h3{
-  color: white;
+
+html, body {
+  height: 100%;
+  width: 100%;
 }
 
-.header nav ul{
-  display: flex;
-  
-
-}
-.header  ul li {
-  color: white;
-  margin: 0 10px;
-  list-style: none;
-
-}
